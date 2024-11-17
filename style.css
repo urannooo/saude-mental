@@ -1,0 +1,40 @@
+body{
+    background-color:#d9eaf5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fotos{
+    display: flex;
+    justify-content: center;
+}
+
+.paragrafos, .topicos{
+    max-width: 800px;  /* Limita a largura do texto em telas maiores */
+    margin: 0 auto;    /* Centraliza o texto */
+    padding: 0 15px;   /* Adiciona espaço nas laterais para telas pequenas */
+    text-align: justify; /* Opcional: Justifica o texto para um visual mais alinhado */
+    margin-top: 40px; /*espaço entre texto e foto*/
+}
+
+
+
+h1, h2, p {
+    word-wrap: break-word; /* Quebra a linha automaticamente quando necessário */
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 800px;
+}
+
+.frase {
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 4px;
+    max-width: 800px; /* Ajuste para a largura desejada */
+    margin: 0 auto; /* Centraliza a caixa na página */
+    padding: 10px; /* Adiciona um espaçamento interno */
+}
+
+
